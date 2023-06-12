@@ -7,17 +7,18 @@ package Arrays;
 public class LargestElem {
     public static void main(String[] args) {
 		
-        int[] arr={2,3,4,1};
-    int max_num=0;
+        int[] numberArray={2,3,4,1};
+    int maximumNumber=0;
 
-    for(int i: arr)
+    for(int i: numberArray)
     {
-        if(i>max_num)
-            max_num=i;
+        if(i > maximumNumber)
+        maximumNumber = i;
     }
-    System.out.print("Max number is:"+max_num);
+    System.out.print("Max number is:"+ maximumNumber);
 
     //System.out.println("Max number is:",max_num);
+    //Collections, Streams, Java 8 Fxnal programming
 	}
     
     
